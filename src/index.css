@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(41, 45, 73);
+    height: 100vh;
+    gap: 15px;
+  }
+  h1{
+    font-size: 50px;
+    color: white;
+  }
+  .shoping-list{
+    width: 230px;
+    margin: 10px auto;
+    height: 150px;
+    background-color: rgb(172, 156, 156);
+    overflow-y: auto;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: boldmi;
+  }
+  .bucket{
+    display: flex;
+    justify-content: space-around;
+  }
+  .bucketinner{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(21, 20, 20);
+    
+  }
+  .blurred {
+    filter: blur(2px);
+    opacity: 0.6;
+  }
+  
+  input{
+    outline: none;
+    height: 30px;
+    width: 220px;
+    font-size: 19px;
+    border: 2px solid white;
+    background-color: rgb(41, 45, 73);
+    color: white;
+  
+  }
+  span{
+    color: white;
+  }
+  
